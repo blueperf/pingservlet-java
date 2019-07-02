@@ -1,0 +1,12 @@
+apiVersion: benchmark.perf/v1alpha1
+kind: PingServlet
+metadata:
+  name: pingservlet-v1
+spec:
+  size: 1
+  host: <hostname>
+  image: watsoncloudperf/pingservlet-java:1.0.0
+  port: 9080
+  minReplicas: 1
+  maxReplicas: 10
+  targetCPUPercent: 80

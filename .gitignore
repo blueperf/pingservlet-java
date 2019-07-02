@@ -1,0 +1,8 @@
+/build/
+/.classpath
+**/.DS_Store
+.DS_Store
+/bin/
+/target/
+/ping-operator/vendor
+/ping-operator/build
