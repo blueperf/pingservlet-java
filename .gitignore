@@ -6,3 +6,4 @@
 /target/
 /ping-operator/vendor
 /ping-operator/build
+*.sh
